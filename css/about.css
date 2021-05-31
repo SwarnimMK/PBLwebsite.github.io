@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+.secRight{
+    display: flex;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    max-width: 150%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0px 84px; 
+}
+
+.secLeft{
+    display: flex;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    max-width: 150%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0px 84px; 
+    flex-direction: row-reverse;
+}
