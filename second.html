@@ -9,29 +9,36 @@
 </head>
 <body>
   
-  <nav class="navbar backgroundd"> 
-    <ul class="nav-list">
+  <nav class="navbar backgroundd h-nav-resp"> 
+    <ul class="nav-list  v-class-resp">
         <div class="logo"><img src="Images/grp11.png" alt="logo"> </div>
         <li> <a href="index.html"> Home  </a> </li>
         <li> <a href="second.html"> Sign In </a> </li>
         <li> <a href="about.html"> About us </a> </li>
         <li> <a href="index.html#Contact%20Us"> Contact Us </a> </li> 
     </ul>
-    <div class="rightNav">
+    <div class="rightNav  v-class-resp">
         <input type="text" name="search" id="search">
         <button class="btn btn-sm"> Search </button>
-    </div>
-  </nav>
+   </div>
+        <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        </div>
+    
+</nav>  
 
            <div class="hero background">
              <div class="form-box">
                      <div class="button-box">
                         <div id="button"></div>
                          <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                         <div id="button2"></div>
                          <button type="button" class="toggle-btn" onclick="register()">Registration</button>  
                      </div>
                      <div class="social-icons">
-                            <img src="Images/i-insta.png" alt="Insta">
+                            <img src="Images/i-insta.jpg" alt="Insta">
                             <img src="Images/i-twitter.jpg" alt="Twitter">
                             <img src="Images/i-fb.jpg" alt="fb">
                      </div>
@@ -71,11 +78,13 @@
                               }
               </script>
 
-    <!--- <footer>
-        <p class="text-footer backgroundd">
-        Copyright &copy; 2027 PBL_Group_11 - All right reserved
-        </p>
-        </footer> -->
+<footer>
+  <p class="text-footer backgroundd">
+  Copyright &copy; 2027 PBL_Group_11 - All right reserved
+  </p>
+</footer>
+
+        <script src="/resp.js"></script>
 
 </body>
 </html>
